@@ -18,6 +18,7 @@ const fun_index = {
         a.href = item.site;
         img.src = item.favicon;
         name.innerText = item.name;
+        a.target = "_blank";
 
         name.className = "name";
 
