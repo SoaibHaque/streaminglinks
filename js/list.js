@@ -56,6 +56,16 @@ const StreamingList = {
       favicon:
         "https://anymovie.cc/wp-content/uploads/2023/08/cropped-anymovie-favicon-192x192.png",
     },
+    {
+      site: "https://flix.smashystream.xyz/",
+      name: "SmashyStream",
+      favicon: "/favicon.ico",
+    },
+    {
+      site: "https://movie-web.app/search/movie/",
+      name: "Movie-Web",
+      favicon: "/favicon.ico",
+    },
   ],
   animation: [
     {
@@ -120,6 +130,12 @@ const StreamingList = {
       name: "RIPCRABBYANIME",
       favicon:
         "https://ripcrabbyanime.in/Img/Ripcrabbyanime.logo.cropped.180x180.png",
+    },
+    {
+      site: "https://olamovies.homes/",
+      name: "OlaMovies",
+      favicon:
+        "https://olamovies.homes/wp-content/uploads/2020/05/cropped-emoji-1-192x192.png",
     },
   ],
 };
