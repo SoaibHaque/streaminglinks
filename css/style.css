@@ -71,6 +71,11 @@ body {
     box-shadow: 0 0 20px 3px var(--faded-text-color);
     text-shadow: 0 0 10px var(--text-color);
   }
+
+  .container .site_container ul li img[alt="default"] {
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+      brightness(95%) contrast(80%);
+  }
 }
 
 @media (prefers-color-scheme: light) {

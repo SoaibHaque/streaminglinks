@@ -1,4 +1,8 @@
 const fun_index = {
+  defaultFavicon: function () {
+    this.src = "/img/favicons/default.png";
+    this.alt = "default";
+  },
   showList: function () {
     for (let category in StreamingList) {
       let site_container = document.createElement("div");
@@ -15,12 +19,16 @@ const fun_index = {
         let img = document.createElement("img");
         let name = document.createElement("span");
 
+        if (item.favicon.trim() === "") fun_index.defaultFavicon.bind(img)();
+        else img.src = item.favicon;
+
         a.href = item.site;
-        img.src = item.favicon;
         name.innerText = item.name;
         a.target = "_blank";
 
         name.className = "name";
+
+        img.addEventListener("error", fun_index.defaultFavicon);
 
         a.append(img, name);
         li.appendChild(a);
