@@ -1,6 +1,6 @@
 const fun_index = {
   defaultFavicon: function () {
-    this.src = "/img/favicons/default.png";
+    this.src = "./img/favicons/default.png";
     this.alt = "default";
   },
   showList: function () {

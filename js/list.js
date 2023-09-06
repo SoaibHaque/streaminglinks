@@ -4,7 +4,7 @@
  * wrong url or cors origin policies.
  *
  * If the issue is cors origin, then you can
- * download the icon and place it into the "/img/favicons/filename"
+ * download the icon and place it into the "./img/favicons/filename"
  * folder, and mention the path of the file in the favicon attribute
  *
  * And if any favicon is failed to load then the default favicon will placed.
@@ -77,7 +77,7 @@ const StreamingList = {
     {
       site: "https://animepahe.ru/",
       name: "AnimePahe",
-      favicon: "/img/favicons/pikacon.ico",
+      favicon: "./img/favicons/pikacon.ico",
     },
     {
       site: "https://yugenanime.tv/",
