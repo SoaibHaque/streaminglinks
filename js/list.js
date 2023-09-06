@@ -59,12 +59,12 @@ const StreamingList = {
     {
       site: "https://flix.smashystream.xyz/",
       name: "SmashyStream",
-      favicon: "/favicon.ico",
+      favicon: "https://flix.smashystream.xyz/favicon.ico",
     },
     {
       site: "https://movie-web.app/search/movie/",
       name: "Movie-Web",
-      favicon: "/favicon.ico",
+      favicon: "https://movie-web.app/favicon.ico",
     },
   ],
   animation: [
