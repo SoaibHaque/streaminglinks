@@ -150,4 +150,11 @@ const StreamingList = {
         "https://worldfree4u.markets/wp-content/themes/worldfree4u/assets/favicon-32x32.png",
     },
   ],
+  torrents: [
+    {
+      site: "https://rargb.to/",
+      name: "RARBG",
+      favicon: "https://rargb.to/favicon.ico",
+    },
+  ],
 };
