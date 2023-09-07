@@ -66,6 +66,12 @@ const StreamingList = {
       name: "Movie-Web",
       favicon: "https://movie-web.app/favicon.ico",
     },
+    {
+      site: "https://ask4movie.li/",
+      name: "Ask4Movie",
+      favicon:
+        "https://ask4movie.li/wp-content/uploads/2018/04/cropped-Fav-Icon-1-192x192.png",
+    },
   ],
   animation: [
     {
@@ -94,11 +100,16 @@ const StreamingList = {
       name: "Yugen",
       favicon: "https://yugenanime.tv/static/img/apple-touch-icon.png",
     },
+    {
+      site: "https://genoanime.com/",
+      name: "GenoAnime",
+      favicon: "https://genoanime.com/img/favicon.ico",
+    },
   ],
   download: [
     {
       site: "https://raretoonsindia.com.co/",
-      name: "Rare Toons India",
+      name: "RareToons India",
       favicon:
         "https://raretoonsindia.com.co/wp-content/uploads/2021/06/cropped-favicon-1-300x300.png",
     },
@@ -149,12 +160,51 @@ const StreamingList = {
       favicon:
         "https://worldfree4u.markets/wp-content/themes/worldfree4u/assets/favicon-32x32.png",
     },
+    {
+      site: "https://bolly4u.fan/",
+      name: "Bolly4U",
+      favicon:
+        "https://bolly4u.fan/wp-content/themes/bolly4u/assets/favicon-32x32.png",
+    },
+    {
+      site: "https://medeberiyaa.com/",
+      name: "Medebriya",
+      favicon:
+        "https://medeberiyaa.com/wp-content/uploads/2019/07/cropped-favicon-1-180x180.jpg",
+    },
+    {
+      site: "https://uhdmovies.wiki/",
+      name: "UHDMovies",
+      favicon:
+        "https://uhdmovies.wiki/wp-content/uploads/2021/03/cropped-output-onlinepngtools-1-192x192.png",
+    },
+    {
+      site: "https://seriesway.com/",
+      name: "SeriesWay",
+      favicon:
+        "https://seriesway.com/shared/assets/img/favicon.ico",
+    },
   ],
   torrents: [
     {
       site: "https://rargb.to/",
       name: "RARBG",
       favicon: "https://rargb.to/favicon.ico",
+    },
+    {
+      site: "https://www.1337x.tw/",
+      name: "1337x",
+      favicon: "https://www.13377x.tw/images/favicon.ico",
+    },
+    {
+      site: "https://piratebayproxy.net/",
+      name: "PirateBay",
+      favicon: "https://piratebayproxy.net/wp-content/uploads/2021/08/pirate-bay-proxy.svg",
+    },
+    {
+      site: "https://ny.iss.one/",
+      name: "Nyaa.si",
+      favicon: "https://ny.iss.one/static/favicon.png",
     },
   ],
 };
