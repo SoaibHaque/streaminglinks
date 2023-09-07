@@ -137,5 +137,17 @@ const StreamingList = {
       favicon:
         "https://olamovies.homes/wp-content/uploads/2020/05/cropped-emoji-1-192x192.png",
     },
+    {
+      site: "https://katmoviehd.mov/",
+      name: "KatMovie HD",
+      favicon:
+        "https://katmoviehd.mov/wp-content/uploads/2019/03/android-icon-144x144-2.png",
+    },
+    {
+      site: "https://worldfree4u.markets/",
+      name: "World Free 4u",
+      favicon:
+        "https://worldfree4u.markets/wp-content/themes/worldfree4u/assets/favicon-32x32.png",
+    },
   ],
 };
