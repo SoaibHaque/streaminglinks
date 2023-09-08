@@ -11,7 +11,7 @@ const fun_index = {
 
       ul.className = "list";
       site_container.className = "site_container";
-      categoryName.innerText = category;
+      categoryName.innerText = `${category} (${StreamingList[category].length})`;
 
       let list = StreamingList[category].map((item) => {
         let li = document.createElement("li");
