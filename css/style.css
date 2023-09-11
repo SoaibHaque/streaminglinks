@@ -126,7 +126,6 @@ body {
 }
 
 .container header span {
-  width: 100% !important;
   font-weight: 800;
   transition: 0.3s box-shadow ease, 0.3s text-shadow ease, 0.3s background-color ease !important;
 }
