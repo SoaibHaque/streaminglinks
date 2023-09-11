@@ -11,7 +11,9 @@ const fun_index = {
 
       ul.className = "list";
       site_container.className = "site_container";
-      categoryName.innerText = `${category} (${StreamingList[category].length})`;
+      categoryName.innerText = `${category.replaceAll("_", " ")} (${
+        StreamingList[category].length
+      })`;
 
       let list = StreamingList[category].map((item) => {
         let li = document.createElement("li");
@@ -43,6 +45,36 @@ const fun_index = {
       document.querySelector(".site_links").appendChild(site_container);
     }
   },
+  changeViewMode: function () {
+    if (this.dataset.view === "list")
+      document.querySelector(".site_links").classList.remove("grid_view");
+    else if (this.dataset.view === "grid")
+      document.querySelector(".site_links").classList.add("grid_view");
+
+    document.querySelector("header span.active")?.classList.remove("active");
+    document
+      .querySelector(`header span[data-view="${this.dataset.view}"]`)
+      .classList.add("active");
+
+    localStorage.setItem("view_mode", this.dataset.view);
+  },
+  storageInit: function () {
+    const data = localStorage.getItem("view_mode");
+    if (data === undefined) {
+      localStorage.setItem("view_mode", "list");
+      return;
+    }
+
+    fun_index.changeViewMode.bind({ dataset: { view: data } })();
+  },
+  init: function () {
+    fun_index.storageInit();
+    fun_index.showList();
+
+    document
+      .querySelectorAll("header span")
+      .forEach((el) => el.addEventListener("click", fun_index.changeViewMode));
+  },
 };
 
-fun_index.showList();
+fun_index.init();

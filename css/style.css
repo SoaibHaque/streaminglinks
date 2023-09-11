@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 0.3s background ease;
 }
 
 body,
@@ -73,9 +74,12 @@ body {
     --text-color: #ffffff;
     --faded-text-color: #2c3744;
     --background-color: #212a34;
+    --header-active-bg-color: #717e8f;
+    --header-active-color: #ffff;
   }
 
-  .container .site_container ul li:hover {
+  .container .site_container ul li:hover,
+  .container header span:hover {
     box-shadow: 0 0 20px 3px var(--faded-text-color);
     text-shadow: 0 0 10px var(--text-color);
   }
@@ -91,6 +95,8 @@ body {
     --text-color: #212a34;
     --faded-text-color: #e8e8e8;
     --background-color: #ffffff;
+    --header-active-bg-color: #939393;
+    --header-active-color: #ffffff;
   }
 }
 
@@ -115,6 +121,20 @@ body {
   color: var(--text-color);
 }
 
+.container header {
+  flex-direction: row !important;
+}
+
+.container header span {
+  font-weight: 800;
+  transition: 0.3s box-shadow ease, 0.3s text-shadow ease, 0.3s background-color ease !important;
+}
+
+.container header span.active {
+  color: var(--header-active-color);
+  background: var(--header-active-bg-color);
+}
+
 .container .site_links {
   overflow: auto;
   gap: 2rem;
@@ -123,10 +143,11 @@ body {
   padding-block: 2rem;
 }
 
-.container .site_links .site_container {
+.container .site_links .site_container,
+.container header {
   padding-inline: 2rem;
   min-width: 50%;
-  max-width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -148,7 +169,8 @@ body {
   gap: 1rem;
 }
 
-.container .site_container ul li {
+.container .site_container ul li,
+.container header span {
   cursor: pointer;
   display: flex;
   width: 100%;
@@ -156,6 +178,19 @@ body {
   padding: 1rem;
   border-radius: 5px;
   transition: 0.3s box-shadow ease, 0.3s text-shadow ease;
+}
+
+.container .site_links.grid_view .site_container ul {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .site_links.grid_view .site_container ul li {
+  width: max-content;
+}
+
+.container .site_links.grid_view .site_container ul li a .name {
+  display: none;
 }
 
 .container .site_container ul li a {

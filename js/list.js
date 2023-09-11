@@ -12,6 +12,13 @@
  */
 
 const StreamingList = {
+  our_sites: [
+    {
+      site: "https://rize-sama.github.io/streamy/",
+      name: "Streamy",
+      favicon: "https://rize-sama.github.io/streamy/vite.svg",
+    },
+  ],
   movies: [
     {
       site: "https://ww.yesmovies.ag/yes.html",
@@ -181,8 +188,7 @@ const StreamingList = {
     {
       site: "https://seriesway.com/",
       name: "SeriesWay",
-      favicon:
-        "https://seriesway.com/shared/assets/img/favicon.ico",
+      favicon: "https://seriesway.com/shared/assets/img/favicon.ico",
     },
   ],
   torrents: [
@@ -199,7 +205,8 @@ const StreamingList = {
     {
       site: "https://piratebayproxy.net/",
       name: "PirateBay",
-      favicon: "https://piratebayproxy.net/wp-content/uploads/2021/08/pirate-bay-proxy.svg",
+      favicon:
+        "https://piratebayproxy.net/wp-content/uploads/2021/08/pirate-bay-proxy.svg",
     },
     {
       site: "https://ny.iss.one/",
