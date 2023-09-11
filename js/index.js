@@ -60,8 +60,11 @@ const fun_index = {
   },
   storageInit: function () {
     const data = localStorage.getItem("view_mode");
-    if (data === undefined) {
+    if (!data) {
       localStorage.setItem("view_mode", "list");
+      document
+        .querySelector(`header span[data-view="list"]`)
+        .classList.add("active");
       return;
     }
 
