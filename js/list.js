@@ -79,6 +79,16 @@ const StreamingList = {
       favicon:
         "https://ask4movie.li/wp-content/uploads/2018/04/cropped-Fav-Icon-1-192x192.png",
     },
+    {
+      site: "https://tma.lol/",
+      name: "The Movie Archive",
+      favicon: "https://tma.lol/favicons/apple-touch-icon.png",
+    },
+    {
+      site: "https://seez.su/",
+      name: "seez",
+      favicon: "https://seez.su/favicon.ico",
+    },
   ],
   animation: [
     {
@@ -111,6 +121,16 @@ const StreamingList = {
       site: "https://genoanime.com/",
       name: "GenoAnime",
       favicon: "https://genoanime.com/img/favicon.ico",
+    },
+    {
+      site: "https://moopa.live/",
+      name: "moopa",
+      favicon: "https://moopa.live/svg/c.svg",
+    },
+    {
+      site: "https://animeflix.live/",
+      name: "AnimeFlix",
+      favicon: "https://animeflix.live/favicon.ico",
     },
   ],
   download: [
