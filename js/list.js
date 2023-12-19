@@ -16,7 +16,7 @@ const StreamingList = {
     {
       site: "https://rize-sama.github.io/streamy/",
       name: "Streamy",
-      favicon: "https://rize-sama.github.io/streamy/vite.svg",
+      favicon: "",
     },
   ],
   movies: [
@@ -76,8 +76,7 @@ const StreamingList = {
     {
       site: "https://ask4movie.li/",
       name: "Ask4Movie",
-      favicon:
-        "https://ask4movie.li/wp-content/uploads/2018/04/cropped-Fav-Icon-1-192x192.png",
+      favicon: "./img/favicons/ask4movie.png",
     },
     {
       site: "https://tma.lol/",
@@ -168,7 +167,7 @@ const StreamingList = {
       site: "https://ripcrabbyanime.com/",
       name: "RIPCRABBYANIME",
       favicon:
-        "https://ripcrabbyanime.in/Img/Ripcrabbyanime.logo.cropped.180x180.png",
+        "https://ripcrabbyanime.com/Img/Ripcrabbyanime.logo.cropped.192x192.png",
     },
     {
       site: "https://olamovies.homes/",

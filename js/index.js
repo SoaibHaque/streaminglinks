@@ -24,6 +24,7 @@ const fun_index = {
         if (item.favicon.trim() === "") fun_index.defaultFavicon.bind(img)();
         else img.src = item.favicon;
 
+        img.alt = item.name.toLowerCase();
         a.href = item.site;
         name.innerText = item.name;
         a.target = "_blank";
@@ -70,38 +71,7 @@ const fun_index = {
 
     fun_index.changeViewMode.bind({ dataset: { view: data } })();
   },
-  checkingForServiceWorker: function () {
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker
-        .register("./js/service-worker.js")
-        .then(function (registration) {
-          console.log(
-            "Service Worker registered with scope:",
-            registration.scope
-          );
-        })
-        .catch(function (error) {
-          console.error("Service Worker registration failed:", error);
-        });
-    }
-  },
-  changeManifest: function () {
-    if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-    ) {
-      // User has dark mode preference
-      document.querySelector('link[rel="manifest"]').href =
-        "./manifest-dark.json";
-    } else {
-      // User has light mode preference
-      document.querySelector('link[rel="manifest"]').href =
-        "./manifest-light.json";
-    }
-  },
   init: function () {
-    fun_index.changeManifest();
-    fun_index.checkingForServiceWorker();
     fun_index.storageInit();
     fun_index.showList();
 
