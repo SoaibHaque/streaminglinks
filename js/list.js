@@ -130,15 +130,16 @@ const StreamingList = {
     {
       site: "https://animeflix.live/",
       name: "AnimeFlix",
-      favicon: "https://animeflix.live/favicon.ico",
+      favicon:
+        "https://cdn.discordapp.com/icons/1033027031409111180/478ab202d6c2752f95758ee9d74edc34.webp?size=64",
     },
   ],
   download: [
     {
-      site: "https://raretoonsindia.com.co/",
-      name: "RareToons India",
+      site: "https://rareanimes.me/",
+      name: "RareAnimes India",
       favicon:
-        "https://raretoonsindia.com.co/wp-content/uploads/2021/06/cropped-favicon-1-300x300.png",
+        "https://rareanimes.me/wp-content/uploads/2023/11/cropped-Rare-Animes-India-192x192.png",
     },
     {
       site: "https://mlwbd.digital/",
@@ -164,7 +165,7 @@ const StreamingList = {
         "https://84.46.254.230/wp-content/uploads/2022/03/cropped-Mkvking-Logo-192x192.png",
     },
     {
-      site: "https://ripcrabbyanime.in/",
+      site: "https://ripcrabbyanime.com/",
       name: "RIPCRABBYANIME",
       favicon:
         "https://ripcrabbyanime.in/Img/Ripcrabbyanime.logo.cropped.180x180.png",
