@@ -14,12 +14,17 @@
 const StreamingList = {
   our_sites: [
     {
-      site: "https://rize-sama.github.io/streamy/",
-      name: "Streamy",
-      favicon: "",
+      site: "https://way2movie.vercel.app",
+      name: "Way2movie",
+      favicon: "https://way2movie.vercel.app/img/favicon.png",
     },
   ],
   movies: [
+    {
+      site: "https://bflix.to/home",
+      name: "BFlix",
+      favicon: "https://s3.bunnycdn.ru/assets/sites/bflix/favicon2.png",
+    },
     {
       site: "https://ww.yesmovies.ag/yes.html",
       name: "Yes Movies",
@@ -88,6 +93,28 @@ const StreamingList = {
       name: "seez",
       favicon: "https://seez.su/favicon.ico",
     },
+    {
+      site: "https://watch.lonelil.com/",
+      name: "Lonelil",
+      favicon:
+        "https://cdn.jsdelivr.net/gh/lonelilpublic/favicon@latest/watch/ios/512.png",
+    },
+    {
+      site: "https://netfilm.app/",
+      name: "Netflim",
+      favicon:
+        "https://cdn.discordapp.com/icons/1164899828598325379/ce31be0cdbb95eb4305c58ad2ae46562.png?size=160",
+    },
+    {
+      site: "https://zoechip.cc/home",
+      name: "Zoechip",
+      favicon: "https://zoechip.cc/images/group_1/theme_3/favicon.png",
+    },
+    {
+      site: "https://watch.streamflix.one/",
+      name: "StreamFlix",
+      favicon: "https://watch.streamflix.one/favicon.ico",
+    },
   ],
   animation: [
     {
@@ -127,6 +154,12 @@ const StreamingList = {
       favicon: "https://moopa.live/svg/c.svg",
     },
     {
+      site: "https://netfilm.app/search?type=anime",
+      name: "Netflim Anime",
+      favicon:
+        "https://cdn.discordapp.com/icons/1164899828598325379/ce31be0cdbb95eb4305c58ad2ae46562.png?size=160",
+    },
+    {
       site: "https://animeflix.live/",
       name: "AnimeFlix",
       favicon:
@@ -141,7 +174,7 @@ const StreamingList = {
         "https://rareanimes.me/wp-content/uploads/2023/11/cropped-Rare-Animes-India-192x192.png",
     },
     {
-      site: "https://mlwbd.digital/",
+      site: "https://mlwbd.fyi/",
       name: "mlwbd",
       favicon: "https://mlwbd.love/wp-content/uploads/new-mlw-bd-red.jpg",
     },
@@ -188,27 +221,48 @@ const StreamingList = {
         "https://worldfree4u.markets/wp-content/themes/worldfree4u/assets/favicon-32x32.png",
     },
     {
-      site: "https://bolly4u.fan/",
-      name: "Bolly4U",
-      favicon:
-        "https://bolly4u.fan/wp-content/themes/bolly4u/assets/favicon-32x32.png",
+      site: "https://dotmovies.bet/",
+      name: "Dot Movies",
+      favicon: "https://dotmovies.bet/wp-content/uploads/2022/09/favicon-1.png",
     },
-    {
-      site: "https://medeberiyaa.com/",
-      name: "Medebriya",
-      favicon:
-        "https://medeberiyaa.com/wp-content/uploads/2019/07/cropped-favicon-1-180x180.jpg",
-    },
+    // {
+    //   site: "https://medeberiyaa.com/",
+    //   name: "Medebriya",
+    //   favicon:
+    //     "https://medeberiyaa.com/wp-content/uploads/2019/07/cropped-favicon-1-180x180.jpg",
+    // },
+    // Not Working
     {
       site: "https://uhdmovies.wiki/",
       name: "UHDMovies",
-      favicon:
-        "https://uhdmovies.wiki/wp-content/uploads/2021/03/cropped-output-onlinepngtools-1-192x192.png",
+      favicon: "./img/favicons/uhd.png",
     },
     {
       site: "https://seriesway.com/",
       name: "SeriesWay",
       favicon: "https://seriesway.com/shared/assets/img/favicon.ico",
+    },
+    {
+      site: "https://bollyflix.fans/",
+      name: "BollyFlix",
+      favicon: "https://bollyflix.fans/wp-content/uploads/2020/02/favicon.ico",
+    },
+    {
+      site: "https://hdhub4u.foo/",
+      name: "HD Hub4u",
+      favicon:
+        "https://hdhub4u.foo/wp-content/uploads/2021/05/cropped-cropped-1-1-1-2-1-180x180.png",
+    },
+    {
+      site: "https://www.thenollyverse.com/",
+      name: "Nollyverse",
+      favicon: "https://www.thenollyverse.com/favicon.ico",
+    },
+    {
+      site: "https://bolly4u.mov/",
+      name: "Bolly4u",
+      favicon:
+        "https://bolly4u.mov/wp-content/themes/bolly4u/assets/favicon.ico",
     },
   ],
   torrents: [
