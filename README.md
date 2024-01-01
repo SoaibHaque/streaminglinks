@@ -12,7 +12,7 @@ You can bookmark [this](https://soaibhaque.github.io/streaminglinks/) website on
 
 I'm inviting all the github users to fork this repository. And adding new websites or updating old ones.
 
-The `list.js` file contains the Streaming services List.
+The `js/list.js` file contains the Streaming services List.
 
 
 
